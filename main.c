@@ -9,9 +9,11 @@ int main(int argc, char *argv[]) {
 	char c = 69	;
 	float f = 12.3	;
 	
-	printf("i : %i %p \n", &i, &i)	;
-	printf("c: %i %p \n", &c, &c)	;
-	printf("f : %i %p \n", &f, &f)	;
+	printf("i : %i %p \n", i, &i)	;
+	printf("c : %c %p \n", c, &c)	;
+	printf("f : %f %p \n", f, &f)	;
+	
+	
 	
 	return 0;
 }
